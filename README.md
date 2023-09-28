@@ -16,3 +16,12 @@ Notes/etc for all things related to 490.
     - Proteus
     - something idk
 
+## Weekly Notes Hyperlinks
+
+Week 1 (9/25 - 9/29)
+
+Week 2
+
+Week 3
+
+Week 4 
