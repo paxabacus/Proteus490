@@ -11,8 +11,8 @@ Notes/etc for all things related to 490.
 ## Repo Contains:
 
   - Notes
-    - Compilers
-    - Automated HSM Testing
-    - Proteus
-    - something idk
+    - [Compilers](./Compilers)
+    - [Automated HSM Testing](./"HSM DOCx")
+    - [Proteus](./Proteus)
+    - [something idk](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
