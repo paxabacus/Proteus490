@@ -1,3 +1,11 @@
+---
+geometry: margin=2cm
+author:
+- AB Paxtor Garcia
+date: '10/2/2023'
+title: 'Compilers 1'
+numbersections: true
+---
 
 # Compilers Part 1
 
