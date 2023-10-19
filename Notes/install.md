@@ -70,6 +70,7 @@ Visual Studio Method
 2. Expand the proteus sub folder
     - Right click "main.cpp"
     - Set "main.cpp" as the startup project
+      
     ![image](https://github.com/paxabacus/Proteus490/assets/64762646/f865ecc4-6b25-451b-91a6-ce67caac1279)
 
 
