@@ -65,8 +65,9 @@ Visual Studio Method
 4. There should be a "proteus.sln" created 
 
 ### Using proteus
+> This is still in Visual Studio
 
-1. Open click "proteus.sln"
+1. Open that "proteus.sln"
 2. Expand the proteus sub folder
     - Right click "main.cpp"
     - Set "main.cpp" as the startup project
