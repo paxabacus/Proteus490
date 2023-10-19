@@ -7,6 +7,7 @@
 ## Download Visual Studio Community
 > Not VS code (we are trying to make that one work too)
 
+[Download Link](https://visualstudio.microsoft.com/vs/community/)
 
 ## Download CMAKE
 
