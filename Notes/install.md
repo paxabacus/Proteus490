@@ -70,8 +70,8 @@ Visual Studio Method
 
 1. Open that "proteus.sln"
 2. Expand the proteus sub folder
-    - Right click "main.cpp"
-    - Set "main.cpp" as the startup project
+    - Right click "proteus" folder
+    - Set "proteus" folder as the startup project
       
     ![image](https://github.com/paxabacus/Proteus490/assets/64762646/f865ecc4-6b25-451b-91a6-ce67caac1279)
 
@@ -101,6 +101,18 @@ Visual Studio Method
       To automatically close the console when debugging stops, enable Tools->Options->Debugging->Automatically close the console when debugging stops.
       Press any key to close this window . . .   
    ```
+
+### Changing main file to run
+
+#### TESTS!
+> Sam got this one
+
+So, instead of setting "proteus" as the main startup folder, do "tests"
+
+It will run tests
+
+![image](https://github.com/paxabacus/Proteus490/assets/64762646/e0ba54ab-05f7-4fb4-b729-ca76934ef064)
+
 
     
   
