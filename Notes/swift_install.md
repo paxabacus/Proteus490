@@ -177,16 +177,16 @@ extension ProteusCompiler {
 }
 
 private func build(_ inputFile: String) {
-    guard let QPC = ProcessInfo.processInfo.environment["QPC"] else {
-        print(
-            """
-            QPC path needs to be defined as an ENVIRONMENT variable for \
-            swift-proteus to work.
-            """,
-            to: &errorStream
-        )
-        return
-    }
+    // guard let QPC = ProcessInfo.processInfo.environment["QPC"] else {
+    //     print(
+    //         """
+    //         QPC path needs to be defined as an ENVIRONMENT variable for \
+    //         swift-proteus to work.
+    //         """,
+    //         to: &errorStream
+    //     )
+    //     return
+    // }
 
     let inputResult: InputResult
     do {
