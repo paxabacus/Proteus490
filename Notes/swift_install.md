@@ -371,3 +371,4 @@ actor Man {
 ```
 
 # fixng my paths hold up.
+![image](https://github.com/paxabacus/Proteus490/assets/64762646/104da897-e654-48fe-9e34-9b0b8799d080)
