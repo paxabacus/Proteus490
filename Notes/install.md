@@ -2,7 +2,7 @@
 geometry: margin=2cm
 author:
 - AB Paxtor Garcia
-date: 'Change Date'
+date: '11/29/2023'
 title: 'Proteus C++ Installation for Windows'
 numbersections: true
 ---
@@ -13,11 +13,19 @@ numbersections: true
 
 [Download Link](https://visualstudio.microsoft.com/vs/community/)
 
+1. Make sure to check __Desktop Development with C++__
+2. On the search box, search __Universal C Runtime__, and check the box for it
+3. Click Install
+
+Everything else should be left at default values
+
 ## CMAKE
 
 [Download Link](https://cmake.org/download/)
 
 __Make Sure to Allow Path__
+
+Everything else should be left at default values
 
 ## G++ Compiler
 
@@ -108,7 +116,62 @@ My path would be
    ![image](https://github.com/paxabacus/Proteus490/assets/64762646/a8e3d5ad-6302-4640-9435-2c09284cd041)
 4. Paste the path as a new entry
    ![image](https://github.com/paxabacus/Proteus490/assets/64762646/91ccf5b0-2d95-4993-8beb-56b9850c63c9)
-5. 
+5. If done correctly, then the C++ proteus.exe canbe used anywhre
+   ![image](https://github.com/paxabacus/Proteus490/assets/64762646/f39a4925-e5f8-4cd3-95af-f2f097a2c03e)
+
+# Programming in Proteus
+
+> Note if you havve not configured environmental variables, then proteus.exe can only be ran in
+> ` C:\Users\abpax\Desktop\Git\proteus\build\Release`
+> Other errors may include, incorrect terminal, so x86_64 Native Terminal will need to be used
+
+## Example Code
+
+1. Copy and paste the "camera.proteus" code
+2. Run the following command
+  ```
+    proteus.exe camera.proteus main.cpp
+  ```
+
+> The command is read as `proteus.exe (or whatever you renamed the exe to) [insert input (i.e. proteus programs)] [ooutput file (i.e.) main.cpp
+3. Within the directory where the command was used there will be a output file titled 'main.cpp'
+
+
+  ![image](https://github.com/paxabacus/Proteus490/assets/64762646/33eabfbd-c3d6-4392-b399-e4c6ec36b282)
+
+
+
+## Recompile output C++ code
+
+
+### CLI Example
+1. Have G++ installed via  Msys2 (linked in the dependencies section), MinGW Installer can give errors
+2. Running it directly gives this error
+  ![image](https://github.com/paxabacus/Proteus490/assets/64762646/80cca9e2-72f8-4290-bd5e-a38e371ee70d)
+3. To fix it add the runtime.hpp file from the proteus git repo, it's under data
+4. A proper execution would look like this
+  ![image](https://github.com/paxabacus/Proteus490/assets/64762646/4bfed0e0-98c8-461b-90bc-effa7219da03)
+5. An exe is created in the directory
+  ![image](https://github.com/paxabacus/Proteus490/assets/64762646/773682a7-077f-44ac-b106-bc42466d9180)
+6. Use `.\a.exe\ to run the exe in terminal
+   ![image](https://github.com/paxabacus/Proteus490/assets/64762646/0e4644d1-5114-4c86-ad9e-a70d8fc21158)
+
+
+
+
+### VS Code Example
+
+1. Have G++ installed
+2. Have the `C/C++` and `C++ Exntesion Pack`installed in VS Code
+3. Have the Code Runner Extension installed in VS Code
+  ![image](https://github.com/paxabacus/Proteus490/assets/64762646/6cac29e3-0b06-4e78-a536-69f7ed19c553)
+4. Click Run Code
+   ![image](https://github.com/paxabacus/Proteus490/assets/64762646/5408643c-fc05-436b-ad73-f4dfe2814d01)
+5. An exe is created, and code runner will pipe the output of the exe to the terminal
+   ![image](https://github.com/paxabacus/Proteus490/assets/64762646/f8129520-5812-4b78-8e72-b8f325c672be)
+
+
+
 
 
 
