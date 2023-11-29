@@ -128,12 +128,13 @@ My path would be
 ## Example Code
 
 1. Copy and paste the "camera.proteus" code
+   - [Link for it](https://github.com/csun-tavlab/proteus/blob/master/examples/camera.proteus)
 2. Run the following command
   ```
     proteus.exe camera.proteus main.cpp
   ```
 
-> The command is read as `proteus.exe (or whatever you renamed the exe to) [insert input (i.e. proteus programs)] [ooutput file (i.e.) main.cpp
+  > The command is read as `proteus.exe (or whatever you renamed the exe to) [insert input (i.e. proteus programs)] [ooutput file (i.e.) main.cpp
 3. Within the directory where the command was used there will be a output file titled 'main.cpp'
 
 
@@ -149,6 +150,7 @@ My path would be
 2. Running it directly gives this error
   ![image](https://github.com/paxabacus/Proteus490/assets/64762646/80cca9e2-72f8-4290-bd5e-a38e371ee70d)
 3. To fix it add the runtime.hpp file from the proteus git repo, it's under data
+   - [Link for it](https://github.com/csun-tavlab/proteus/blob/master/data/runtime.hpp)
 4. A proper execution would look like this
   ![image](https://github.com/paxabacus/Proteus490/assets/64762646/4bfed0e0-98c8-461b-90bc-effa7219da03)
 5. An exe is created in the directory
